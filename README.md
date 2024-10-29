@@ -14,6 +14,10 @@ Contents
 --------------
 
 1. Creating a Research Software Environment
+2. Analyzing a Global Precipitation Data Cube
+3. Tracking Changes to Research Code
+4. Creating a Basin-Scale Water Budget
+5. Documenting our Water Budget Workflow
 
 
 Getting Started
@@ -50,10 +54,16 @@ Learning Outcomes
 - Uses assertions to verify assumptions as runtime (CC4.7)
 - Writes short, simple functions that have no side effects (CC4.9)
 
+**In addition, learners will see how to:**
+
+- Merge multiple HDF files together into an `xarray.Dataset`
+- Subset an `xarray.Dataset` using an ERSI Shapefile
+
 
 Climate Datasets Used
 ---------------------
 
+- Monthly precipitation totals from [NASA IMERG-Final](https://dx.doi.org/10.5067/GPM/IMERG/3B-MONTH/07)
 - [Terrestrial water storage anomalies from the NASA GRACE and GRACE-FO missions](https://podaac.jpl.nasa.gov/dataset/TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06.1_V3)
 
 
