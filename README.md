@@ -45,12 +45,15 @@ pip install xarray netcdf4 dask
 Learning Outcomes
 -----------------
 
+This course covers the following [Core Competencies in Computational Data Science:](https://github.com/OpenClimateScience/Core-Competencies/blob/main/ScienceCore-Competencies.md)
+
 - Chooses meaningful filenames (CC1.3)
 - Records relationships between code, results, and metadata (CC1.5)
 - Uses a package manager to install and manage software dependencies (CC1.10)
 - Understands multi-dimensional arrays (CC2.3)
 - Can scale up a computational workflow (CC2.6)
 - Chooses variable names that are clear and informative (CC3.8)
+- Understands software releases and versioning (CC4.4)
 - Uses assertions to verify assumptions as runtime (CC4.7)
 - Writes short, simple functions that have no side effects (CC4.9)
 
