@@ -13,7 +13,7 @@ The third module of our [open climate-science curriculum](https://openclimatesci
 Contents
 --------------
 
-1. Creating a Research Software Environment
+1. [Creating a Research Software Environment](https://github.com/OpenClimateScience/M3-Open-Science-for-Water-Resources/blob/main/notebooks/01_Creating_a_Research_Software_Environment.ipynb)
 2. Analyzing a Global Precipitation Data Cube
 3. Tracking Changes to Research Code
 4. Creating a Basin-Scale Water Budget
