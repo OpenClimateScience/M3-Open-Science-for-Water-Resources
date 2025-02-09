@@ -4,6 +4,6 @@ virtualenv.sh
 notebooks/.ipynb_checkpoints
 
 notebooks/data
-data_raw/
-outputs/
+processed
+outputs
 
