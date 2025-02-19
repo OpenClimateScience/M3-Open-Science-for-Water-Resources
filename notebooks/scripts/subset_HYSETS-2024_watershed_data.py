@@ -6,10 +6,10 @@ For more information:
 
 import xarray as xr
 
-OUTPUT_FILE = '/home/arthur/Workspace/NTSG/projects/Y2024_TOPS_Training/data/HYSETS_watersheds.nc'
-HYSETS_DATASET = '/home/arthur.endsley/Downloads/TOPS/HYSETS_2020_QC_stations.nc'
+OUTPUT_FILE = '/home/arthur/Workspace/NTSG/projects/Y2024_TOPS_Training/data/HYSETS-2023_watershed_YellowstoneRiver.nc'
+HYSETS_DATASET = '/home/arthur.endsley/Downloads/TOPS/HYSETS_2023_update_QC_stations.nc'
 STATION_IDX = [
-    (8753, 'KansasRiver'),
+    # (8753, 'KansasRiver'),
     (8209, 'YellowstoneRiver'),
 ] # Corresponding to WatershedID 8210, 8754 (index is one less)
 
@@ -18,7 +18,7 @@ def main():
     datasets = []
     for sid, name in STATION_IDX:
         ds = dict()
-        for key in ('discharge', 'pr', 'tasmax', 'tasmin', 'slope', 'elevation'):
+        for key in ('discharge', 'total_precipitation', '2m_tasmax', '2m_tasmin', 'drainage_area', 'slope', 'elevation'):
             ds[key] = hysets[key].loc[sid]
 
         ds = xr.Dataset(ds)
