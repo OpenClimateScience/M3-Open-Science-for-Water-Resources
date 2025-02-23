@@ -10,7 +10,6 @@ import numpy as np
 import h5py
 import xarray as xr
 import geopandas
-from matplotlib import pyplot
 from pyproj import CRS
 
 BASIN_FILE = '/home/arthur.endsley/Workspace/NTSG/projects/Y2024_TOPS_Training/data/YellowstoneRiver_drainage_WSG84.shp'
