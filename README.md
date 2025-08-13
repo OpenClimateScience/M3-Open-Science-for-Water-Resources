@@ -9,6 +9,11 @@ The third module of our [open climate-science curriculum](https://openclimatesci
 - Know where to access remotely sensed or modeled data on water storage anomalies, evapotranspiration, and soil moisture;
 - Calculate a water budget.
 
+TODOs
+--------------
+
+- [ ] **Archive the binary data files (Shapefiles, runoff data); link them in the repo**
+
 
 Contents
 --------------
