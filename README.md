@@ -22,7 +22,7 @@ Contents
 2. [Analyzing a Global Precipitation Data Cube](https://github.com/OpenClimateScience/M3-Open-Science-for-Water-Resources/blob/main/notebooks/02_Analyzing_a_Global_Precipitation_Data_Cube.ipynb)
 3. [Tracking Changes to Research Code](https://github.com/OpenClimateScience/M3-Open-Science-for-Water-Resources/blob/main/notebooks/03_Tracking_Changes_to_Research_Code.ipynb)
 4. [Creating a Basin-Scale Water Budget](https://github.com/OpenClimateScience/M3-Open-Science-for-Water-Resources/blob/main/notebooks/04_Creating_a_Basin-Scale_Water_Budget.ipynb)
-5. Documenting our Water Budget Workflow
+5. [Documenting our Water Budget Workflow](https://github.com/OpenClimateScience/M3-Open-Science-for-Water-Resources/blob/main/notebooks/05_Documenting_our_Water_Budget_Workflow.ipynb)
 
 
 Getting Started
