@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/867199973.svg)](https://doi.org/10.5281/zenodo.16896539)
+
+
 M3: Open Science for Water Resources
 ====================================
 
@@ -61,8 +64,12 @@ This course covers the following [Core Competencies in Computational Data Scienc
 
 **In addition, learners will see how to:**
 
+- Install and manage Python packages
 - Merge multiple HDF files together into an `xarray.Dataset`
 - Subset an `xarray.Dataset` using an ERSI Shapefile
+- Clip and reproject raster data based on an ESRI Shapefile
+- Compute a water budget using precipitation, evapotranspiration, and runoff data
+- Use Git and Github to track and back-up changes to research software
 
 
 Climate Datasets Used
@@ -71,6 +78,7 @@ Climate Datasets Used
 - Monthly precipitation totals from [NASA IMERG-Final](https://dx.doi.org/10.5067/GPM/IMERG/3B-MONTH/07)
 - Annual evapotranspiration data from [NASA's MODIS MOD16 product](https://lpdaac.usgs.gov/products/mod16a2v061/)
 - [Terrestrial water storage anomalies from the NASA GRACE and GRACE-FO missions](https://podaac.jpl.nasa.gov/dataset/TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06.1_V3)
+- Runoff data from [the HYSETS database](https://doi.org/10.1038/s41597-020-00583-2)
 
 
 Acknowledgements
